@@ -1,18 +1,21 @@
 {
-  "name": "angular-easy-social-share",
-  "description": "An easy way way to share the current page on an AngularJS app with Twitter, Facebook and LinkedIn.",
+  "name": "angular-easy-social-share-zurb",
+  "description": "An easy way way to share the current page on an AngularJS app using Zurb Foundation Icons with Twitter, Facebook, Google Plus, and LinkedIn.",
   "version": "1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tinacious/angular-easy-social-share.git"
+    "url": "git://github.com/Dillie-O/angular-easy-social-share-zurb.git"
   },
   "main": [
-    "easy-social-share.js"
+    "easy-social-share.js",
+  ],
+  "keywords:": [
+    "facebook", "twitter", "linkedin", "goole plus", "social media", "sharing", "zurb", "foundation", "angularjs", "angular"
   ],
   "ignore": [
     "README.md"
   ],
   "dependencies": {
-    "font-awesome": ">=4.0.3"
+    "zurb/foundation-icon-fonts": ">=1.0"
   }
 }
