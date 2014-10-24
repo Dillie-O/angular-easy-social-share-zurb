@@ -1,32 +1,34 @@
-# AngularJS Easy Social Share
+# AngularJS Easy Social Share using Zurb
 
 An easy way way to share the current page on an AngularJS app with Twitter, Facebook, Google Plus, and LinkedIn.
 
 This directive uses URL links to share your page's content on each of the social media networks and therefore doesn't require the use of an app ID.
-
-View a demo [here](http://tinacious.github.io/angular-easy-social-share/).
 
 ## Usage
 
 This repository can be installed using Bower:
 
 ```bash
-bower install angular-easy-social-share --save
+bower install angular-easy-social-share-zurb --save
 grunt bower-install
 ```
 
 ### Dependencies
 
-This directive requires [Font Awesome](https://github.com/components/font-awesome). Installing using Bower should download the required dependency but Font Awesome may need to be referenced manually.
+This directive requires [Zurb Foundation Icons 3](http://zurb.com/playground/foundation-icon-fonts-3), which is included in the package. You may need to manually change the directive a little bit if you use a different version.
 
-1. Make sure `easy-social-share.js` is included. 
-2. Add `td.easySocialShare` as an app dependency.
+#### Installation
+
+1. Make sure `easy-social-share.js` is included in your index.html or other file.
+ 
+2. Add `td.easySocialShare` as an app dependency:
+
+	`angular.module('myApp', [ 'td.easySocialShare' ])`
+
 3. Use the `share-links` directive in your view's HTML as follows:
 
-```html
-<div share-square="true" share-links="Facebook, Twitter, LinkedIn, Google-Plus" share-title="Article Title"></div>
-```
+	`<div share-links="Facebook, Twitter, LinkedIn, Google-Plus" share-title="Article Title"></div>`
 
-### Options
+### Styling
 
-If you would like to use the square version of Font Awesome, be sure to include the attribute `share-square="true"` otherwise it will use the version without the square.
+Since this is using Zurb Foundation Icons, you can follow the documentation [here](http://zurb.com/playground/foundation-icon-fonts-3#customize) on how to customize the look.
