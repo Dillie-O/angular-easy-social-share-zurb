@@ -9,9 +9,6 @@
   "main": [
     "easy-social-share.js",
   ],
-  "keywords:": [
-    "facebook", "twitter", "linkedin", "goole plus", "social media", "sharing", "zurb", "foundation", "angularjs", "angular"
-  ],
   "ignore": [
     "README.md"
   ],
