@@ -8,6 +8,9 @@
   "description": "An easy way way to share the current page to various social networks using AngularJS and Zurb Foundation Icons.",
   "main": "easy-social-share.js",
   "license": "MIT",
+  "dependencies": {
+      "zurb/foundation-icon-fonts"
+   }
   "ignore": [
     "**/.*",
     "node_modules",
