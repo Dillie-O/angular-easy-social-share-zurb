@@ -9,8 +9,8 @@
   "main": "easy-social-share.js",
   "license": "MIT",
   "dependencies": {
-      "zurb/foundation-icon-fonts"
-   }
+     "zurb/foundation-icon-fonts": "~0.0.0"
+   },
   "ignore": [
     "**/.*",
     "node_modules",
