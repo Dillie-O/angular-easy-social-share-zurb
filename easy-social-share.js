@@ -11,13 +11,9 @@ angular.module('td.easySocialShare', [])
             pageLink = encodeURIComponent($location.absUrl()),
             pageTitle = attrs.shareTitle,
             pageTitleUri = encodeURIComponent(pageTitle),
-            shareLinks = [],
-            square = '';
+            shareLinks = [];
 
         elem.addClass('td-easy-social-share');
-
-        // check if square icon specified
-        square = (attrs.shareSquare && attrs.shareSquare.toString() === 'true') ? '-square' : '';
 
         // assign share link for each network
         angular.forEach(links, function (key) {

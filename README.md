@@ -15,11 +15,13 @@ grunt bower-install
 
 ### Dependencies
 
-This directive requires [Zurb Foundation Icons 3](http://zurb.com/playground/foundation-icon-fonts-3), which is included in the package. You may need to manually change the directive a little bit if you use a different version.
+This directive requires [Zurb Foundation Icons 3](http://zurb.com/playground/foundation-icon-fonts-3), which is referenced in the package. Bower should install this automatically.
 
 #### Installation
 
 1. Make sure `easy-social-share.js` is included in your index.html or other file.
+
+2. Make sure `foundation-icons.css` is included in your index.html or other file.
  
 2. Add `td.easySocialShare` as an app dependency:
 
